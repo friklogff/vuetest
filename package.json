@@ -1,0 +1,49 @@
+{
+  "name": "vutest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "element-ui": "^2.4.11",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "vue": "^2.3.0",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~3.0.0",
+    "@vue/cli-plugin-eslint": "~3.0.0", 
+    "@vue/cli-plugin-router": "~3.0.0",
+    "@vue/cli-plugin-vuex": "~3.0.0",
+    "@vue/cli-service": "^3.0.0",
+    "babel-eslint": "^8.2.3",
+    "cross-env": "^5.2.0",  
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.20.1",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-pwa": "~3.0.0", 
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.2"    
+  },
+  "vue-router": {
+    "router": true
+  },
+  "vuex": {
+    "vuex": true
+  },
+  "element-ui": true
+}
